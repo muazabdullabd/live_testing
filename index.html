@@ -1,14 +1,60 @@
-<!DOCTYPE html>
-<html>
+# Create a clean and modern HTML/CSS template similar to the uploaded image (dark theme)
+
+html_content = """<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Diploma Result Hub</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BTBEB Result Hub</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Diploma Result Check</h1>
-  <input type="text" id="roll" placeholder="Enter Roll Number">
-  <button onclick="checkResult()">Check Result</button>
-  <div id="resultBox"></div>
-  <script src="script.js"></script>
+  <header class="navbar">
+    <div class="logo">BTEB Result Hub</div>
+    <nav class="menu">
+      <a href="#">Individual Results</a>
+      <a href="#">Institute Results</a>
+      <a href="#">Group Results</a>
+      <a href="#">CGPA Calculator</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="form-section">
+      <h1>Individual Result Check</h1>
+      <p>Check your Results in One Click</p>
+      <form class="result-form">
+        <label>Exam</label>
+        <select>
+          <option>Diploma in Engineering</option>
+        </select>
+        <label>Regulation</label>
+        <select>
+          <option>2022</option>
+        </select>
+        <label>Roll Number</label>
+        <input type="text" placeholder="e.g. 123456" />
+        <button type="submit">Get Result</button>
+      </form>
+    </section>
+
+    <section class="info-section">
+      <h2>Individual Result (Explained)</h2>
+      <p>Click the dropdown of result fields and submit with roll number. This allows for convenient access to student results.</p>
+      
+      <h2>How to Check Your Result</h2>
+      <p>Choose your Exam, Regulation, enter Roll number and click on “Get Result”.</p>
+      
+      <h2>Supported Exam Results</h2>
+      <p>Diploma, SSC Vocational, BM, Trade Courses, etc.</p>
+      
+      <h2>Multiple Semester Results</h2>
+      <p>Students may have results for several semesters. Only the most recent result will be shown.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>BTEB Result Hub &copy; 2025 | For your BTEB Results</div>
+  </footer>
 </body>
 </html>
