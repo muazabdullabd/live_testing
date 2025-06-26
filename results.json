@@ -1,0 +1,52 @@
+[
+  {
+    "roll": "123456",
+    "name": "Abdul Karim",
+    "gpa": "3.75"
+  },
+  {
+    "roll": "123457",
+    "name": "Salma Akter",
+    "gpa": "3.90"
+  },
+  {
+    "roll": "123458",
+    "name": "Nurul Islam",
+    "gpa": "3.60"
+  },
+  {
+    "roll": "123459",
+    "name": "Rehana Begum",
+    "gpa": "3.80"
+  },
+  {
+    "roll": "123460",
+    "name": "Tariqul Hasan",
+    "gpa": "3.95"
+  },
+  {
+    "roll": "123461",
+    "name": "Shamim Hossain",
+    "gpa": "3.85"
+  },
+  {
+    "roll": "123462",
+    "name": "Fatema Khatun",
+    "gpa": "3.70"
+  },
+  {
+    "roll": "123463",
+    "name": "Hasan Mahmud",
+    "gpa": "3.65"
+  },
+  {
+    "roll": "123464",
+    "name": "Rafiq Uddin",
+    "gpa": "3.88"
+  },
+  {
+    "roll": "123465",
+    "name": "Jannat Ara",
+    "gpa": "4.00"
+  }
+]
