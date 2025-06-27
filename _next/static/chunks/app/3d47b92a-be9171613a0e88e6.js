@@ -1,0 +1,33 @@
+"use strict";
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([[614], {
+    8196: function(h, t, v) {
+        v.d(t, {
+            NAU: function() {
+                return n
+            }
+        });
+        var a = v(1810);
+        function n(h) {
+            return (0,
+            a.w_)({
+                tag: "svg",
+                attr: {
+                    viewBox: "0 0 24 24"
+                },
+                child: [{
+                    tag: "path",
+                    attr: {
+                        d: "M21 10h-2V4h1V2H4v2h1v6H3a1 1 0 0 0-1 1v9h20v-9a1 1 0 0 0-1-1zm-7 8v-4h-4v4H7V4h10v14h-3z"
+                    },
+                    child: []
+                }, {
+                    tag: "path",
+                    attr: {
+                        d: "M9 6h2v2H9zm4 0h2v2h-2zm-4 4h2v2H9zm4 0h2v2h-2z"
+                    },
+                    child: []
+                }]
+            })(h)
+        }
+    }
+}]);
